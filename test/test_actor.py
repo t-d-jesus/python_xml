@@ -1,5 +1,6 @@
 import pytest
-from src.model.ActorModel import Actor
+from python_xml.model.ActorModel import Actor
+
 
 @pytest.fixture
 def actor():

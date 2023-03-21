@@ -2,6 +2,7 @@ from db_connection.postgresqldb import get_connection
 from model.ActorModel import Actor
 from xml_parser.actor_parser import actor_parser
 
+
 if __name__ == "__main__":
 
     xml_file = 'resources/data/xml/xml1.xml'
@@ -32,8 +33,8 @@ if __name__ == "__main__":
     cursor.execute(sql1)    
 
 
-for i in cursor.fetchall():
-    print(i)
+for actor in cursor.fetchall():
+    print(actor)
  
 conn.commit()
  

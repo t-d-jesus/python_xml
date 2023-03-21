@@ -1,0 +1,22 @@
+{
+
+	"actors": [{
+			"rank": 1,
+			"year": 2008,
+			"gdppc": 141100,
+			"neighbor": {
+				"name": "Austria",
+				"direction": "E"
+			}
+		},
+		{
+			"rank": 2,
+			"year": 2008,
+			"gdppc": 152200,
+			"neighbor": {
+				"name": "Finlandia",
+				"direction": "O"
+			}
+		}
+	]
+}

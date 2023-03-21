@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 from model.ActorModel import Actor
 
-def actor_parser(xml_file,root_xpath):
+def actor_parser(xml_file,root_xpath) -> list[Actor]:
     tree = ET.parse(xml_file)
     root = tree.getroot()
 
